@@ -19,12 +19,12 @@
 
 ----
 ### 達成目標
-* **git-flow, github-flowでの運用ができるようになる**
-	* [git-flow](https://www.atlassian.com/ja/git/workflows#!workflow-gitflow), [github-flow](https://gist.github.com/Gab-km/3705015)を理解し、プロジェクトに応じて最適な運用を行える。
+* **gitを有効に利用した運用ができるようになる**
+	* [git-flow](https://www.atlassian.com/ja/git/workflows#!workflow-gitflow), [github-flow](https://gist.github.com/Gab-km/3705015)を理解し、プロジェクトに応じて最適な運用を行える
 *  **自動テスト、自動ビルド、自動デプロイ環境を整備できる**
-	* [jenkins](https://jenkins.io/)や各種CI環境を利用して、自動テスト、自動ビルド、自動デプロイ環境を構築できる。 
+	* [jenkins](https://jenkins.io/)や各種CI環境を利用して、自動テスト、自動ビルド、自動デプロイ環境を構築できる
 * **チケット管理ツールを運用できる**
-	* 誰がどのタスクでどんな作業をしたかを全てトラッキングできる。
+	* 誰がどのタスクでどんな作業をしたかを全てトラッキングできる
  
 ----
 ### 勉強会の進め方
@@ -37,6 +37,15 @@
 	* 実際にツールを使ってチーム開発をしてみる
 	* そこでの気付きや運用方法を議論に加える
 	* **OSSとしてリリースする**
+----
+### 資料の管理
+* [@team-dev-practice/docs](https://github.com/team-dev-practice/docs)で管理
+	* docs以下に章(例：CH2.1_2.3)のディレクトリのを作って、その中に資料や議事録を入れる
+* [github-flow](https://gist.github.com/Gab-km/3705015)に従ってプルリク出してmasterにマージする
+	* 若干煩わしいですが練習
+	* 開発の題材で[github-flow](https://gist.github.com/Gab-km/3705015)の運用ができてきたら自由にpushできるようにする(予定)
+* なるべくdiffが取れる形式のファイルを選ぶ
+	* Markdownとか使う（スライドなら[Marp](https://yhatt.github.io/marp/)とか）
 
 ----
 ### 事前準備
@@ -45,7 +54,7 @@
 * **[github](https://github.com)アカウントの作成・共有**
 	* 持ってない人はすぐに作りましょう
 	* [@y0k0ta19](https://github.com/y0k0ta19)をフォロー
-	* [team-dev-practice ](https://github.com/team-dev-practice)へ参加(招待します)
+	* [@team-dev-practice](https://github.com/team-dev-practice)へ参加(招待します)
 
 ----
 日程   |    範囲   |担当| | 日程  |   範囲   | 担当
@@ -67,3 +76,4 @@
 	* [Electron](https://electron.atom.io/)開発環境
 * (例) 何かのbot(笑)
 	* テスト用デプロイ環境([heroku](https://www.heroku.com/)), DB([redis](https://redis.io/)) 
+* 何か作り始めるのは3章が終わったくらいからでもいいかも
